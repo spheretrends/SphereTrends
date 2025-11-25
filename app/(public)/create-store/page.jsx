@@ -1,12 +1,12 @@
 'use client'
 import { assets } from "@/assets/assets"
-import { useEffect, useState } from "react"
-import Image from "next/image"
-import toast from "react-hot-toast"
 import Loading from "@/components/Loading"
 import { useAuth, useUser } from "@clerk/nextjs"
-import { useRouter } from "next/navigation"
 import axios from "axios"
+import Image from "next/image"
+import { useRouter } from "next/navigation"
+import { useEffect, useState } from "react"
+import toast from "react-hot-toast"
 
 export default function CreateStore() {
 
@@ -111,7 +111,7 @@ export default function CreateStore() {
                         {/* Title */}
                         <div>
                             <h1 className="text-3xl ">Add Your <span className="text-slate-800 font-medium">Store</span></h1>
-                            <p className="max-w-lg">To become a seller on GoCart, submit your store details for review. Your store will be activated after admin verification.</p>
+                            <p className="max-w-lg">To become a seller on SphereTrends, submit your store details for review. Your store will be activated after admin verification.</p>
                         </div>
 
                         <label className="mt-10 cursor-pointer">

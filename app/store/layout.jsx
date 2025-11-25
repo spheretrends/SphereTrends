@@ -1,9 +1,9 @@
 import StoreLayout from "@/components/store/StoreLayout";
-import {SignedIn, SignedOut, SignIn} from "@clerk/nextjs"
+import { SignedIn, SignedOut, SignIn } from "@clerk/nextjs";
 
 export const metadata = {
-    title: "GoCart. - Store Dashboard",
-    description: "GoCart. - Store Dashboard",
+    title: "SphereTrends. - Store Dashboard",
+    description: "SphereTrends. - Store Dashboard",
 };
 
 export default function RootAdminLayout({ children }) {
